@@ -1,0 +1,20 @@
+.header {
+  padding:0 20px 20px 20px;
+}
+
+.filter-container {
+  width: 300px;
+  margin: 30px auto;
+
+  .filter-input {
+    background-color:rgba(0, 0, 0, 0);
+
+    width: 100%;
+    padding: 10px;
+    border: $border-color;
+    outline: none;
+    color: $color;
+    font-size: 20px;
+  }
+}
+

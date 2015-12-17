@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Donald Trump</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link href="assets/css/style.min.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="header" role="banner">
+    <div class="filter-container">
+        <input type="text" autofocus="true" name="autofocus sample" placeholder="Filter" class="filter-input"
+               id="filter-input"/>
+    </div>
+    <div class="clear">
+        <div id="datepicker-container-from" class="datepicker-container">
+            <label>From</label>
+        </div>
+    </div>
+</header>
+
+<main class="main" role="main">
+    <div id="error" class="error hidden">
+
+    </div>
+    <table class="article-list" id="article-list">
+        <tbody>
+
+        </tbody>
+    </table>
+</main>
+
+<footer class="footer" role="contentinfo">
+
+</footer>
+
+<div class="overlay hidden" id="overlay">
+    <div class="modal-content">
+        <span class="button-close" id="close-overlay"></span>
+        <div class="clear">
+            <div id="article-image-container" class="article-image-container"></div>
+            <div class="article-title">
+                <h1></h1>
+                <h2></h2>
+                <h3></h3>
+            </div>
+        </div>
+        <p id="article-content"></p>
+        <ul id="related-articles" class="related-articles"></ul>
+    </div>
+</div>
+<script src="assets/js/datepicker.js"></script>
+<script src="assets/js/index.js"></script>
+</body>
+</html>

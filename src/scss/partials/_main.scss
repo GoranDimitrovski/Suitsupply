@@ -1,0 +1,29 @@
+.main {
+  padding: 0 20px 20px 20px;
+}
+
+.article-list {
+  margin: 30px auto;
+  padding: 10px;
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+  td {
+    padding: 5px;
+    &.read-more {
+      min-width: 80px;
+      a {
+
+
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.error{
+  text-align: center;
+  font-size:20px;
+}

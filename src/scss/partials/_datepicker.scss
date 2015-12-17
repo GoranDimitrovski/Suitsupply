@@ -1,0 +1,28 @@
+.datepicker-container{
+  width: 300px;
+  text-align: center;
+  padding: 5px 10px;
+  border: 1px solid black;
+  margin: 0 auto;
+
+  label{
+    float: left;
+    line-height: 30px;
+    width: 15%;
+    font-size: 20px;
+  }
+
+  select {
+    padding: 3px;
+    width: 24%;
+    border: 1px solid black;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    margin:1.5%;
+
+    &::focus {
+      outline: none;
+    }
+  }
+}

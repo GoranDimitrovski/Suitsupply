@@ -1,0 +1,25 @@
+@media only screen and (max-width: 800px) {
+  .modal-content {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .article-title {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .filter-container {
+    width: 100%;
+  }
+  .datepicker-container {
+    width: 100%;
+    select {
+      margin: 5px auto;
+      width: 100%;
+    }
+  }
+}
